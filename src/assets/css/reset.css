@@ -1,0 +1,58 @@
+/* TYPE, COMMON */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,p,button,input{margin:0;padding:0}
+body,h1,h2,h3,h4,h5,h6,input,button,textarea,select,option{color:#000; font-family: 'Noto Sans KR', '맑은고딕',Malgun Gothic,'돋움',dotum,helvetica,sans-serif;font-size:12px;line-height:1.4;}
+img,fieldset,iframe{border:0}
+ul, ol {list-style:none}
+img,a,input,select,button{vertical-align:top}
+em,address,dfn,cite{font-style:normal}
+
+a{color:#000;text-decoration:none}
+a:hover{color:#000;text-decoration:none}
+label,button{cursor:pointer}
+
+html, body {font-size: 62.5%;}
+
+/* FORM */
+legend{display:block;overflow:hidden;position:absolute;top:-1000em;left:0}
+
+/* TABLE */
+table{border-spacing:0;border-collapse:collapse;width:100%;}
+table,th,td{color:#000;font-family:'돋움',dotum,helvetica,sans-serif; font-size:12px;}
+caption{width:0; height:0; font-size:0; line-height:0; overflow:hidden; visibility:hidden;}
+
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 300;
+  src:  url('../font/NotoSans-Light.woff2') format('woff2'),
+        url('../font/NotoSans-Light.woff') format('woff'),
+        url('../font/NotoSans-Light.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 400;
+  src:  url('../font/NotoSans-Regular.woff2') format('woff2'),
+        url('../font/NotoSans-Regular.woff') format('woff'),
+        url('../font/NotoSans-Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 500;
+  src:  url('../font/NotoSans-Medium.woff2') format('woff2'),
+        url('../font/NotoSans-Medium.woff') format('woff'),
+        url('../font/NotoSans-Medium.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 800;
+  src:  url('../font/NotoSans-Bold.woff2') format('woff2'),
+        url('../font/NotoSans-Bold.woff') format('woff'),
+        url('../font/NotoSans-Bold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 900;
+  src:  url('../font/NotoSans-Black.woff2') format('woff2'),
+        url('../font/NotoSans-Black.woff') format('woff'),
+        url('../font/NotoSans-Black.otf') format('opentype');
+}
