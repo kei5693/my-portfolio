@@ -14,14 +14,32 @@ function Container(props){
   let kyoboContent = [];
   let shinhan = [];
   let shinhanContent = [];
+
   Array.from(props.vueProject).forEach(el => {
     let target = el.project;
 
-    if(el.client === '라이나생명'){
+    if(el.client === '노브랜드 버거'){
       Array.from(target).forEach(client => {
         lina.push(
-          <li key={client.id}>
-            <a href={client.href} target="_blank" rel="noreferrer">{client.title}</a>
+          <li
+            key={client.id}
+            className={client.imgType === 'horizontal' ? "horizontal" : ""}
+          >
+            <div className='visual'>
+              <img src={`${process.env.PUBLIC_URL + client.img}`} alt="" />
+            </div>
+            <div className='text'>
+              <h4>{client.title}</h4>
+              <ul>
+                <li className="comment">{client.comment}</li>
+                <li className="period">{client.period}</li>
+                <li className="skill">{client.skill}</li>
+              </ul>
+              <div className="linkArea">
+                <a href={client.github} target="_blank" rel="noreferrer">GIT</a>
+                <a href={client.dist} target="_blank" rel="noreferrer">DIST</a>
+              </div>
+            </div>
           </li>
         )
       });
@@ -30,11 +48,28 @@ function Container(props){
         <ul>{lina}</ul>
       </>;
 
-    } else if(el.client === '교보생명'){
+    } else if(el.client === '버거킹'){
       Array.from(target).forEach(client => {
         kyobo.push(
-          <li key={client.id}>
-            <a href={client.href} target="_blank" rel="noreferrer">{client.title}</a>
+          <li
+            key={client.id}
+            className={client.imgType === 'horizontal' ? "horizontal" : ""}
+          >
+            <div className='visual'>
+              <img src={`${process.env.PUBLIC_URL + client.img}`} alt="" />
+            </div>
+            <div className='text'>
+              <h4>{client.title}</h4>
+              <ul>
+                <li className="comment">{client.comment}</li>
+                <li className="period">{client.period}</li>
+                <li className="skill">{client.skill}</li>
+              </ul>
+              <div className="linkArea">
+                <a href={client.github} target="_blank" rel="noreferrer">Github</a>
+                <a href={client.dist} target="_blank" rel="noreferrer">Dist</a>
+              </div>
+            </div> 
           </li>
         )
       });
@@ -46,8 +81,25 @@ function Container(props){
     } else {
       Array.from(target).forEach(client => {
         shinhan.push(
-          <li key={client.id}>
-            <a href={client.href} target="_blank" rel="noreferrer">{client.title}</a>
+          <li
+            key={client.id}
+            className={client.imgType === 'horizontal' ? "horizontal" : ""}
+          >
+            <div className='visual'>
+              <img src={`${process.env.PUBLIC_URL + client.img}`} alt="" />
+            </div>
+            <div className='text'>
+              <h4>{client.title}</h4>
+              <ul>
+                <li className="comment">{client.comment}</li>
+                <li className="period">{client.period}</li>
+                <li className="skill">{client.skill}</li>
+              </ul>
+              <div className="linkArea">
+                <a href={client.github} target="_blank" rel="noreferrer">Github</a>
+                <a href={client.dist} target="_blank" rel="noreferrer">Dist</a>
+              </div>
+            </div>
           </li>
         )
       });
@@ -76,57 +128,100 @@ function Footer(props){
 function App() {
   const vueProject = [
     {
-      client: '라이나생명',
+      client: '노브랜드 버거',
       project: [
         {
           id: 1,
-          title: '타로카드',
-          href: 'https://github.com/kei5693/portfolio-lina-tarot-simulator'
+          title: '미트 마니아',
+          git: 'https://www.naver.com/',
+          dist: 'https://www.naver.com/',
+          img: '/image/img_02.png',
+          imgType: 'horizontal',
+          period : '2021.01.01 ~ 2021.02.01',
+          comment: '점심엔 햄버거 3개 기본',
+          skill: 'Javascript, HTML5, CSS, Vue'
         },
         {
           id: 2,
-          title: '고연령 건강빙고',
-          href: 'https://github.com/kei5693/portfolio-lina-bingo-simulator'
+          title: '메가바이트',
+          href: 'https://www.naver.com/',
+          img: '/image/img_01.png',
+          imgType: 'vertical',
+          period : '2021.01.01 ~ 2021.02.01',
+          comment: '점심엔 햄버거 3개 기본',
+          skill: 'Javascript, HTML5, CSS, Vue'
         },
         {
           id: 3,
-          title: '저연령 건강OX',
-          href: 'https://github.com/kei5693/portfolio-lina-health-simulator'
+          title: '더블치즈 베이컨 시그니처',
+          href: 'https://www.naver.com/',
+          img: '/image/img_01.png',
+          imgType: 'vertical',
+          period : '2021.01.01 ~ 2021.02.01',
+          comment: '점심엔 햄버거 3개 기본',
+          skill: 'Javascript, HTML5, CSS, Vue'
         }
       ]
     },
     {
-      client: '교보생명',
+      client: '버거킹',
       project: [
         {
           id: 4,
-          title: '보험상품 시뮬레이터',
-          href: 'https://github.com/kei5693/portfolio-kyobo-diy-insurance'
+          title: '미트 마니아',
+          git: 'https://www.naver.com/',
+          dist: 'https://www.naver.com/',
+          img: '/image/img_02.png',
+          imgType: 'horizontal',
+          period : '2021.01.01 ~ 2021.02.01',
+          comment: '점심엔 햄버거 3개 기본',
+          skill: 'Javascript, HTML5, CSS, Vue'
         },
         {
           id: 5,
-          title: '드림ON 매뉴얼',
-          href: 'https://github.com/kei5693/portfolio-kyobo-dream-on-manual'
+          title: '메가바이트',
+          href: 'https://www.naver.com/',
+          img: '/image/img_01.png',
+          imgType: 'vertical',
+          period : '2021.01.01 ~ 2021.02.01',
+          comment: '점심엔 햄버거 3개 기본',
+          skill: 'Javascript, HTML5, CSS, Vue'
         },
         {
           id: 6,
-          title: '간편가입보험 시뮬레이터',
-          href: 'https://github.com/kei5693/portfolio-kyobo-dreamplaner-survey'
-        },
+          title: '더블치즈 베이컨 시그니처',
+          href: 'https://www.naver.com/',
+          img: '/image/img_01.png',
+          imgType: 'vertical',
+          period : '2021.01.01 ~ 2021.02.01',
+          comment: '점심엔 햄버거 3개 기본',
+          skill: 'Javascript, HTML5, CSS, Vue'
+        }
       ]
     },
     {
-      client: '신한라이프',
+      client: 'KFC',
       project: [
         {
           id: 7,
-          title: '세일즈톡',
-          href: 'https://github.com/kei5693/portfolio-shinhan-health-talk'
+          title: '미트 마니아',
+          git: 'https://www.naver.com/',
+          dist: 'https://www.naver.com/',
+          img: '/image/img_02.png',
+          imgType: 'horizontal',
+          period : '2021.01.01 ~ 2021.02.01',
+          comment: '점심엔 햄버거 3개 기본',
+          skill: 'Javascript, HTML5, CSS, Vue'
         },
         {
           id: 8,
-          title: '헬스톡',
-          href: 'https://github.com/kei5693/portfolio-shinhan-sales-talk'
+          title: '메가바이트',
+          href: 'https://www.naver.com/',
+          img: '/image/img_01.png',
+          imgType: 'vertical',
+          period : '2021.01.01 ~ 2021.02.01',
+          comment: '점심엔 햄버거 3개 기본',
+          skill: 'Javascript, HTML5, CSS, Vue'
         }
       ]
     }
