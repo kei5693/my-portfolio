@@ -40,11 +40,11 @@ h5 {color: #000;}
   height: 1px;
   background-color: #d7d7d7;
 }
-#container .projectList > ul + h3,
-#container .projectList > ul > li {
+#container .projectList > div + div,
+#container .projectList > div > ul > li {
   margin-top: 2.4rem;
 }
-#container .projectList > ul > li {
+#container .projectList > div > ul > li {
   display: flex;
   justify-content: space-between;
 
@@ -55,32 +55,32 @@ h5 {color: #000;}
 
   color: #000;
 }
-#container .projectList > ul > li .visual {
+#container .projectList > div > ul > li .visual {
   width: 10rem;
 }
-#container .projectList > ul > li .visual img {
+#container .projectList > div > ul > li .visual img {
   display:block;
   width: 100%;
 }
-#container .projectList > ul > li .text {
+#container .projectList > div > ul > li .text {
   position: relative;
   width: calc(100% - 11.2rem);
 }
-#container .projectList > ul > li .text > h4 {
+#container .projectList > div > ul > li .text > h4 {
   font-size: 1.6rem;
 }
-#container .projectList > ul > li .text > ul {
+#container .projectList > div > ul > li .text > ul {
   margin-top: 0.8rem;
 }
-#container .projectList > ul > li .text > ul > li.comment {
+#container .projectList > div > ul > li .text > ul > li.comment {
   font-size: 1.6rem;
   margin-bottom: 0.8rem;
 }
-#container .projectList > ul > li .text > ul > li.period,
-#container .projectList > ul > li .text > ul > li.skill {
+#container .projectList > div > ul > li .text > ul > li.period,
+#container .projectList > div > ul > li .text > ul > li.skill {
   color: #999;
 }
-#container .projectList > ul > li .text > .linkArea {
+#container .projectList > div > ul > li .text > .linkArea {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -94,38 +94,64 @@ h5 {color: #000;}
   background-color: #edecec;
   border: 1px solid #d7d7d7;
 }
-#container .projectList > ul > li .text > .linkArea a {
+#container .projectList > div > ul > li .text > .linkArea a {
   width: 50%;
   height: 100%;
   line-height: 3rem;
   text-align: center;
   color: #000;
 }
-#container .projectList > ul > li .text > .linkArea a + a {
+#container .projectList > div > ul > li .text > .linkArea a + a {
   border-left: 1px solid #d7d7d7;
   background-color: #fff;
 }
-
-
-
-
-
-
-#container .projectList > ul > li.horizontal {
+#container .projectList > div > ul > li.horizontal {
   flex-direction: column;
   padding: 0;
 }
-#container .projectList > ul > li.horizontal > div {
+#container .projectList > div > ul > li.horizontal > div {
   width: 100%;
 }
-#container .projectList > ul > li.horizontal .visual img {
+#container .projectList > div > ul > li.horizontal .visual img {
   width: 100%;
   margin: 0;
 }
-#container .projectList > ul > li.horizontal .text {
+#container .projectList > div > ul > li.horizontal .text {
   padding: 1.2rem;
 }
-#container .projectList > ul > li.horizontal .text > .linkArea {
+#container .projectList > div > ul > li.horizontal .text > .linkArea {
   position: static;
   margin-top: 1.6rem;
+}
+
+@media all and (min-width:1024px) {
+  #wrapper {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  #container .projectList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+  }
+  #container .projectList h3:after {
+    width: 100%;
+  }
+  #container .projectList > div + div {
+    margin: 0;
+  }
+  #container .projectList > div > ul {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 1rem; */
+  }
+  #container .projectList > div > ul > li {
+    
+  }
+  #container .projectList > div > ul > li.horizontal {
+    /* grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1; */
+  }
 }

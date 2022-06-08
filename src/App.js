@@ -43,10 +43,10 @@ function Container(props){
           </li>
         )
       });
-      linaContent = <>
+      linaContent = <div>
         <h3>{el.client}</h3>
         <ul>{lina}</ul>
-      </>;
+      </div>;
 
     } else if(el.client === '버거킹'){
       Array.from(target).forEach(client => {
@@ -73,10 +73,10 @@ function Container(props){
           </li>
         )
       });
-      kyoboContent = <>
+      kyoboContent = <div>
         <h3>{el.client}</h3>
         <ul>{kyobo}</ul>
-      </>;
+      </div>;
 
     } else {
       Array.from(target).forEach(client => {
@@ -103,14 +103,14 @@ function Container(props){
           </li>
         )
       });
-      shinhanContent = <>
+      shinhanContent = <div>
         <h3>{el.client}</h3>
         <ul>{shinhan}</ul>
-      </>;
+      </div>;
     }
   });
   return <section id="container">
-    <h2>Vue 프로젝트</h2>
+    <h2>수행 프로젝트</h2>
     <div className="projectList">
       {linaContent}
       {kyoboContent}
