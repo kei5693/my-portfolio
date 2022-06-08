@@ -132,7 +132,7 @@ function App() {
       project: [
         {
           id: 1,
-          title: '미트 마니아',
+          title: '미트 마니아2',
           git: 'https://www.naver.com/',
           dist: 'https://www.naver.com/',
           img: '/image/img_02.png',
@@ -144,7 +144,8 @@ function App() {
         {
           id: 2,
           title: '메가바이트',
-          href: 'https://www.naver.com/',
+          git: 'https://www.naver.com/',
+          dist: 'https://www.naver.com/',
           img: '/image/img_01.png',
           imgType: 'vertical',
           period : '2021.01.01 ~ 2021.02.01',
@@ -154,7 +155,8 @@ function App() {
         {
           id: 3,
           title: '더블치즈 베이컨 시그니처',
-          href: 'https://www.naver.com/',
+          git: 'https://www.naver.com/',
+          dist: 'https://www.naver.com/',
           img: '/image/img_01.png',
           imgType: 'vertical',
           period : '2021.01.01 ~ 2021.02.01',
@@ -180,7 +182,8 @@ function App() {
         {
           id: 5,
           title: '메가바이트',
-          href: 'https://www.naver.com/',
+          git: 'https://www.naver.com/',
+          dist: 'https://www.naver.com/',
           img: '/image/img_01.png',
           imgType: 'vertical',
           period : '2021.01.01 ~ 2021.02.01',
@@ -190,7 +193,8 @@ function App() {
         {
           id: 6,
           title: '더블치즈 베이컨 시그니처',
-          href: 'https://www.naver.com/',
+          git: 'https://www.naver.com/',
+          dist: 'https://www.naver.com/',
           img: '/image/img_01.png',
           imgType: 'vertical',
           period : '2021.01.01 ~ 2021.02.01',
@@ -216,7 +220,8 @@ function App() {
         {
           id: 8,
           title: '메가바이트',
-          href: 'https://www.naver.com/',
+          git: 'https://www.naver.com/',
+          dist: 'https://www.naver.com/',
           img: '/image/img_01.png',
           imgType: 'vertical',
           period : '2021.01.01 ~ 2021.02.01',
