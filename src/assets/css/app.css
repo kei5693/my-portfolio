@@ -61,6 +61,7 @@ h5 {color: #000;}
 #container .projectList > div > ul > li .visual img {
   display:block;
   width: 100%;
+  border: 1px solid #ccc;
 }
 #container .projectList > div > ul > li .text {
   position: relative;
@@ -71,10 +72,12 @@ h5 {color: #000;}
 }
 #container .projectList > div > ul > li .text > ul {
   margin-top: 0.8rem;
+  padding-bottom: 4rem;
 }
 #container .projectList > div > ul > li .text > ul > li.comment {
-  font-size: 1.6rem;
   margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+  word-break: keep-all;
 }
 #container .projectList > div > ul > li .text > ul > li.period,
 #container .projectList > div > ul > li .text > ul > li.skill {
@@ -115,13 +118,16 @@ h5 {color: #000;}
 #container .projectList > div > ul > li.horizontal .visual img {
   width: 100%;
   margin: 0;
+  border: 0 none;
 }
 #container .projectList > div > ul > li.horizontal .text {
   padding: 1.2rem;
 }
+#container .projectList > div > ul > li.horizontal .text > ul {
+  padding-bottom: 1rem;
+}
 #container .projectList > div > ul > li.horizontal .text > .linkArea {
   position: static;
-  margin-top: 1.6rem;
 }
 
 @media all and (min-width:1024px) {
@@ -129,29 +135,33 @@ h5 {color: #000;}
     width: 1024px;
     margin: 0 auto;
   }
-  #container .projectList {
+  #container .projectList > div > ul {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
   }
   #container .projectList h3:after {
     width: 100%;
   }
   #container .projectList > div + div {
-    margin: 0;
+    margin-top: 6rem;
   }
   #container .projectList > div > ul {
     /* display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0 1rem; */
+    margin-top: 2.4rem;
   }
   #container .projectList > div > ul > li {
-    
+    margin-top: 0;
   }
-  #container .projectList > div > ul > li.horizontal {
-    /* grid-column-start: 1;
-    grid-column-end: 3;
+  #container .projectList > div.kyobo > ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #container .projectList > div.shinhan > ul > li:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 2;
     grid-row-start: 1;
-    grid-row-end: 1; */
+    grid-row-end: 3;
   }
 }
