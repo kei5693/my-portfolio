@@ -1,34 +1,55 @@
+body {
+  background: linear-gradient(160deg,#90f 15%,#e9173d 30%,#f75e2c 60%,#e9173d 85%, #90f 100%);
+}
 h1 {font-size: 2.4rem;}
 h2 {font-size: 2rem;}
 h3 {font-size: 1.8rem;}
 h4 {font-size: 1.6rem;}
-h5 {color: #000;}
+h1, h2, h3, h5 {color: #fff;}
+.bullList > li {
+  position: relative;
+  padding-left: 1rem;
+  font-size: 1.2rem;
+}
+.bullList > li:after {
+  content: '-';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 #wrapper {
   position: relative;
   padding: 1.6rem;
   font-size: 1.4rem;
+  word-break: keep-all;
 }
-#wrapper:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 300vh;
-  /* background: linear-gradient(180deg, #3d74ff 0%, rgb(153, 0, 255) 70%, rgb(0, 0, 0) 100%); */
+
+header {
+  color: #fff;
+}
+header > ul {
+  margin-top: 1.6rem;
+}
+header > div {
+  margin-top: 1.6rem;
+}
+header > dl dt {
+  margin-top: 1.6rem;
+}
+header .bullList > li {
+  font-size: 1.4rem;
 }
 
 #container {
-  padding: 1.6rem 0;
+  padding: 8rem 0;
 }
-#container .projectList {
-  margin-top: 1.6rem;
+#container .projectList > h2 {
+  margin-bottom: 1.6rem;
 }
 #container .projectList h3 {
   position: relative;
-  font-size: 1.8rem;
-  color: #000;
+  color: #fff;
   padding-bottom: 0.8rem;
 }
 #container .projectList h3:after {
@@ -40,18 +61,22 @@ h5 {color: #000;}
   height: 1px;
   background-color: #d7d7d7;
 }
-#container .projectList > div + div,
-#container .projectList > div > ul > li {
-  margin-top: 2.4rem;
+#container .projectList > div + div {
+  margin-top: 8rem;
 }
 #container .projectList > div > ul > li {
+  margin-top: 1.6rem;
+}
+#container .projectList > div > ul > li {
+  overflow: hidden;
   display: flex;
   justify-content: space-between;
 
   padding: 1.2rem;
-  border: 1px solid #d7d7d7;
+  /* border: 1px solid #d7d7d7; */
   border-radius: 0.4rem;
-  box-shadow: 2px 2px 8px #ececec;
+  background-color: #fff;
+  box-shadow: 2px 2px 0px #202020;
 
   color: #000;
 }
@@ -67,16 +92,12 @@ h5 {color: #000;}
   position: relative;
   width: calc(100% - 11.2rem);
 }
-#container .projectList > div > ul > li .text > h4 {
-  font-size: 1.6rem;
-}
 #container .projectList > div > ul > li .text > ul {
   margin-top: 0.8rem;
   padding-bottom: 4rem;
 }
 #container .projectList > div > ul > li .text > ul > li.comment {
   margin-bottom: 0.8rem;
-  font-size: 1.4rem;
   word-break: keep-all;
 }
 #container .projectList > div > ul > li .text > ul > li.period,
@@ -119,6 +140,7 @@ h5 {color: #000;}
   width: 100%;
   margin: 0;
   border: 0 none;
+  border-bottom: 1px solid #ccc;
 }
 #container .projectList > div > ul > li.horizontal .text {
   padding: 1.2rem;
@@ -130,15 +152,65 @@ h5 {color: #000;}
   position: static;
 }
 
+#container .careerDesc {
+  margin-top: 8rem;
+  color: #fff;
+}
+#container .careerDesc > ul {
+  margin-top: 3.2rem;
+}
+#container .careerDesc > ul > li + li {
+  margin-top: 3.2rem;
+  padding-top: 3.2rem;
+  border-top: 1px solid #fff;
+}
+#container .careerDesc > ul > li .title {
+  display: flex;
+  justify-content: space-between;
+}
+#container .careerDesc > ul > li .content {
+  margin-top: 2.4rem;
+}
+#container .careerDesc > ul > li .content dt {
+  margin-bottom: 0.4rem;
+}
+#container .careerDesc > ul > li .content dd {
+  position: relative;
+  padding-left: 1rem;
+  font-size: 1.2rem;
+}
+#container .careerDesc > ul > li .content dd:after {
+  content: '-';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 @media all and (min-width:1024px) {
+  h1 {font-size: 3.2rem;}
+  h2 {font-size: 2.8rem;}
+  h3 {font-size: 2.4rem;}
+  h4 {font-size: 2rem;}
+
   #wrapper {
     width: 1024px;
     margin: 0 auto;
+    background: none;
   }
+  header {
+    font-size: 2rem;
+  }
+  header .bullList > li {
+    font-size: 1.6rem;
+  }
+
   #container .projectList > div > ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
+  }
+  #container .projectList h3 {
+    font-size: 2.4rem;
   }
   #container .projectList h3:after {
     width: 100%;
@@ -147,9 +219,6 @@ h5 {color: #000;}
     margin-top: 6rem;
   }
   #container .projectList > div > ul {
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 0 1rem; */
     margin-top: 2.4rem;
   }
   #container .projectList > div > ul > li {
@@ -163,5 +232,22 @@ h5 {color: #000;}
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
+  }
+
+  #container .careerDesc > ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 4rem;
+    font-size: 1.8rem;
+  }
+  #container .careerDesc > ul > li {
+    padding: 3.2rem 0;
+    border-top: 1px solid #fff;
+  }
+  #container .careerDesc > ul > li + li {
+    margin-top: 0;
+  }
+  #container .careerDesc > ul > li .content dd {
+    font-size: 1.6rem;
   }
 }
