@@ -156,13 +156,13 @@ header .bullList > li {
   margin-top: 8rem;
   color: #fff;
 }
-#container .careerDesc > ul {
-  margin-top: 3.2rem;
+#container .careerDesc > ul > li {
+  margin-top: 1.2rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid #fff;
 }
 #container .careerDesc > ul > li + li {
   margin-top: 3.2rem;
-  padding-top: 3.2rem;
-  border-top: 1px solid #fff;
 }
 #container .careerDesc > ul > li .title {
   display: flex;
@@ -184,6 +184,28 @@ header .bullList > li {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+body.pdfView {
+  background: #edecec;
+}
+body.pdfView h1,
+body.pdfView h2,
+body.pdfView h3,
+body.pdfView h5,
+body.pdfView #container .careerDesc,
+body.pdfView #wrapper header {
+  color: #000 !important;
+}
+body.pdfView #container .projectList > div > ul > li {
+  border: 1px solid #000;
+  box-shadow: none;
+}
+body.pdfView #container .careerDesc > ul > li {
+  border-color: #000;
+}
+body.pdfView #container .projectList h3:after {
+  background-color: #000;
 }
 
 @media all and (min-width:1024px) {
@@ -235,6 +257,7 @@ header .bullList > li {
   }
 
   #container .careerDesc > ul {
+    margin-top: 3.2rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0 4rem;
@@ -242,6 +265,7 @@ header .bullList > li {
   }
   #container .careerDesc > ul > li {
     padding: 3.2rem 0;
+    margin-top: 0;
     border-top: 1px solid #fff;
   }
   #container .careerDesc > ul > li + li {
