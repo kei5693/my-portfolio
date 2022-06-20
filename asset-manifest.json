@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.313bfb38.css",
-    "main.js": "/my-portfolio/static/js/main.8eb77cde.js",
+    "main.css": "/my-portfolio/static/css/main.194a8ced.css",
+    "main.js": "/my-portfolio/static/js/main.ac8a91c4.js",
     "static/js/787.1ed0c42c.chunk.js": "/my-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/NotoSans-Black.otf": "/my-portfolio/static/media/NotoSans-Black.0583fd5d76943887a81d.otf",
     "static/media/NotoSans-Light.otf": "/my-portfolio/static/media/NotoSans-Light.ec7f2349019731181656.otf",
@@ -19,12 +19,12 @@
     "static/media/NotoSans-Light.woff2": "/my-portfolio/static/media/NotoSans-Light.d3283d226f8f74e7a8d5.woff2",
     "static/media/NotoSans-Black.woff2": "/my-portfolio/static/media/NotoSans-Black.2ac864a194a4c2b8049b.woff2",
     "index.html": "/my-portfolio/index.html",
-    "main.313bfb38.css.map": "/my-portfolio/static/css/main.313bfb38.css.map",
-    "main.8eb77cde.js.map": "/my-portfolio/static/js/main.8eb77cde.js.map",
+    "main.194a8ced.css.map": "/my-portfolio/static/css/main.194a8ced.css.map",
+    "main.ac8a91c4.js.map": "/my-portfolio/static/js/main.ac8a91c4.js.map",
     "787.1ed0c42c.chunk.js.map": "/my-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.313bfb38.css",
-    "static/js/main.8eb77cde.js"
+    "static/css/main.194a8ced.css",
+    "static/js/main.ac8a91c4.js"
   ]
 }
