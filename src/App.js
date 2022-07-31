@@ -21,19 +21,22 @@ function Container(props){
             key={client.id}
             className={client.imgType === 'horizontal' ? "horizontal" : ""}
           >
-            <div className='visual'>
-              <img src={`${process.env.PUBLIC_URL + client.img}`} alt="" />
-            </div>
-            <div className='text'>
-              <h4>{client.title}</h4>
-              <ul>
-                <li className="comment">{client.comment}</li>
-                <li className="period">{client.period}</li>
-                <li className="skill">{client.skill}</li>
-              </ul>
-              <div className="linkArea">
-                <a href={client.git} target="_blank" rel="noreferrer">GIT</a>
-                <a href={client.dist} target="_blank" rel="noreferrer">DIST</a>
+            <h4>{client.title}</h4>
+              <div className='inner'>
+                <div className='visual'>
+                  <img src={`${process.env.PUBLIC_URL + client.img}`} alt="" />
+                </div>
+                <div className='text'>
+                <h4>{client.title}</h4>
+                <ul>
+                  <li className="comment">{client.comment}</li>
+                  <li className="period">{client.period}</li>
+                  <li className="skill">{client.skill}</li>
+                </ul>
+                <div className="linkArea">
+                  <a href={client.git} target="_blank" rel="noreferrer">GIT</a>
+                  <a href={client.dist} target="_blank" rel="noreferrer">DIST</a>
+                </div>
               </div>
             </div>
           </li>
@@ -51,21 +54,24 @@ function Container(props){
             key={client.id}
             className={client.imgType === 'horizontal' ? "horizontal" : ""}
           >
-            <div className='visual'>
-              <img src={`${process.env.PUBLIC_URL + client.img}`} alt="" />
-            </div>
-            <div className='text'>
-              <h4>{client.title}</h4>
-              <ul>
-                <li className="comment">{client.comment}</li>
-                <li className="period">{client.period}</li>
-                <li className="skill">{client.skill}</li>
-              </ul>
-              <div className="linkArea">
-                <a href={client.git} target="_blank" rel="noreferrer">GIT</a>
-                <a href={client.dist} target="_blank" rel="noreferrer">DIST</a>
+            <h4>{client.title}</h4>
+            <div className='inner'>
+              <div className='visual'>
+                <img src={`${process.env.PUBLIC_URL + client.img}`} alt="" />
               </div>
-            </div> 
+              <div className='text'>
+                <h4>{client.title}</h4>
+                <ul>
+                  <li className="comment">{client.comment}</li>
+                  <li className="period">{client.period}</li>
+                  <li className="skill">{client.skill}</li>
+                </ul>
+                <div className="linkArea">
+                  <a href={client.git} target="_blank" rel="noreferrer">GIT</a>
+                  <a href={client.dist} target="_blank" rel="noreferrer">DIST</a>
+                </div>
+              </div>
+            </div>
           </li>
         )
       });
@@ -81,19 +87,22 @@ function Container(props){
             key={client.id}
             className={client.imgType === 'horizontal' ? "horizontal" : ""}
           >
-            <div className='visual'>
-              <img src={`${process.env.PUBLIC_URL + client.img}`} alt="" />
-            </div>
-            <div className='text'>
-              <h4>{client.title}</h4>
-              <ul>
-                <li className="comment">{client.comment}</li>
-                <li className="period">{client.period}</li>
-                <li className="skill">{client.skill}</li>
-              </ul>
-              <div className="linkArea">
-                <a href={client.git} target="_blank" rel="noreferrer">GIT</a>
-                <a href={client.dist} target="_blank" rel="noreferrer">DIST</a>
+            <h4>{client.title}</h4>
+            <div className='inner'>
+              <div className='visual'>
+                <img src={`${process.env.PUBLIC_URL + client.img}`} alt="" />
+              </div>
+              <div className='text'>
+                <h4>{client.title}</h4>
+                <ul>
+                  <li className="comment">{client.comment}</li>
+                  <li className="period">{client.period}</li>
+                  <li className="skill">{client.skill}</li>
+                </ul>
+                <div className="linkArea">
+                  <a href={client.git} target="_blank" rel="noreferrer">GIT</a>
+                  <a href={client.dist} target="_blank" rel="noreferrer">DIST</a>
+                </div>
               </div>
             </div>
           </li>
@@ -110,19 +119,22 @@ function Container(props){
             key={client.id}
             className={client.imgType === 'horizontal' ? "horizontal" : ""}
           >
-            <div className='visual'>
-              <img src={`${process.env.PUBLIC_URL + client.img}`} alt="" />
-            </div>
-            <div className='text'>
+            <h4>{client.title}</h4>
+            <div className='inner'>
+              <div className='visual'>
+                <img src={`${process.env.PUBLIC_URL + client.img}`} alt="" />
+              </div>
+              <div className='text'>
               <h4>{client.title}</h4>
-              <ul>
-                <li className="comment">{client.comment}</li>
-                <li className="period">{client.period}</li>
-                <li className="skill">{client.skill}</li>
-              </ul>
-              <div className="linkArea">
-                <a href={client.git} target="_blank" rel="noreferrer">GIT</a>
-                <a href={client.dist} target="_blank" rel="noreferrer">DIST</a>
+                <ul>
+                  <li className="comment">{client.comment}</li>
+                  <li className="period">{client.period}</li>
+                  <li className="skill">{client.skill}</li>
+                </ul>
+                <div className="linkArea">
+                  <a href={client.git} target="_blank" rel="noreferrer">GIT</a>
+                  <a href={client.dist} target="_blank" rel="noreferrer">DIST</a>
+                </div>
               </div>
             </div>
           </li>
@@ -160,7 +172,7 @@ function Container(props){
 
   return <section id="container">
     <div className="projectList">
-      <h2>수행 프로젝트</h2>
+      <h2>[수행 프로젝트]</h2>
       {linaContent}
       {kyoboContent}
       {shinhanContent}
@@ -168,7 +180,7 @@ function Container(props){
     </div>
 
     <div className='careerDesc'>
-      <h2>경력기술서</h2>
+      <h2>[경력기술서]</h2>
       <ul>{careerContent}</ul>
     </div>
   </section>
@@ -198,7 +210,7 @@ function App() {
           img:      '/image/lina/bingo.png',
           imgType:  'vertical',
           period:   '2021.10 ~ 2021.12',
-          comment:  '빙고 게임을 통해 보험 상품을 소개 받고 공유 할 수 있는 사이트',
+          comment:  '빙고 게임을 하며 결과에 따라 보험 상품을 소개 받고 공유 할 수 있는 사이트',
           skill:    'Vue, Javascript, HTML5, SCSS'
         },
         {
@@ -220,7 +232,7 @@ function App() {
           img:      '/image/lina/alzheimer.png',
           imgType:  'vertical',
           period:   '2021.09 ~ 2021.09',
-          comment:  '질문을 통해 인지 능력 감퇴 정도를 결과로 보여줄 수 있는 사이트',
+          comment:  '다수의 질문을 통해 인지 능력 감퇴 정도를 결과로 보여줄 수 있는 사이트',
           skill:    'Vue, Javascript, HTML5, CSS'
         }
       ]
@@ -236,7 +248,7 @@ function App() {
           img:      '/image/kyobo/manual.png',
           imgType:  'horizontal',
           period:   '2021.12 ~ 2021.12',
-          comment:  '자사 앱에서 사용하는 직원 교육용 매뉴얼',
+          comment:  '자사 앱에서 사용하는 직원의 보험상품 교육용 매뉴얼',
           skill:    'Vue, Javascript, HTML5, SCSS'
         },
         {
@@ -296,7 +308,7 @@ function App() {
           img:      '/image/shinhan/bingo.png',
           imgType:  'horizontal',
           period:   '2021.08 ~ 2021.08',
-          comment:  '빙고 게임을 통해 보험 상품을 소개하는 사이트',
+          comment:  '5단 빙고 게임을 통해 보험 상품을 소개하는 사이트',
           skill:    'Vue, Javascript, HTML5, SCSS'
         },
         {
@@ -354,6 +366,16 @@ function App() {
     },
     {
       id:         2,
+      name:       '아이파트너즈',
+      department: '퍼블리싱',
+      position:   '과장',
+      period:     '2016.06 ~ 2021.01',
+      work:       '고객사의 웹 사이트 운영, 구축 업무를 담당했습니다.',
+      client:     '현대카드, 신세계백화점, 신라면세점',
+      skill:      'Jquery, Javascript, HTML5, CSS3'
+    },
+    {
+      id:         3,
       name:       '애비로드',
       department: '퍼블리싱',
       position:   '과장',
@@ -363,7 +385,7 @@ function App() {
       skill:      'Jquery, Javascript, HTML5, CSS3'
     },
     {
-      id:         3,
+      id:         4,
       name:       '문화마케팅연구소',
       department: '개발팀',
       position:   '대리',
@@ -373,7 +395,7 @@ function App() {
       skill:      'Jquery, Javascript, HTML5, CSS3'
     },
     {
-      id:         4,
+      id:         5,
       name:       '김영일교육컨설팅',
       department: '개발팀',
       position:   '연구원',
@@ -383,7 +405,7 @@ function App() {
       skill:      'Jquery, Javascript, HTML5, CSS3'
     },
     {
-      id:         5,
+      id:         6,
       name:       '웹비젼',
       department: '퍼블리싱사업부',
       position:   '사원',
@@ -393,7 +415,7 @@ function App() {
       skill:      'Jquery, Javascript, HTML5, CSS3'
     },
     {
-      id:         6,
+      id:         7,
       name:       '토스',
       department: 'IT사업 1팀',
       position:   '사원',
@@ -407,38 +429,33 @@ function App() {
   return (
     <div id="wrapper">
       <header>
-        <h1>오경훈</h1>
+        <h1>오경훈(KyungHoon Oh)</h1>
 
         <ul>
-          <li><strong>이메일 : </strong><span>keichi5693@gmail.com</span></li>
-          <li><strong>연락처 : </strong><span>010-5249-2123</span></li>
+          <li><strong className='email'>이메일</strong><span>keichi5693@gmail.com</span></li>
+          <li><strong className='phone'>연락처</strong><span>010-5249-2123</span></li>
         </ul>
 
-        <div>
-          <p>안녕하세요? 프론트엔드 개발자 오경훈입니다.</p>
-          <ul className='bullList'>
-            <li>새로운 기술을 학습하고 사용하는 것에 부담감이 없습니다.</li>
-            <li>군더더기 없는 클린 코드를 지양하며 그 해결 하는 과정을 좋아합니다.</li>
-            <li>타 팀과의 커뮤니케이션에서 의사표현이 확실하고 일정 준수를 지양 합니다.</li>
-          </ul>
-        </div>
-
         <dl>
-          <dt>[Skill &amp; Tool]</dt>
+          <dt>안녕하세요? 프론트엔드 개발자 오경훈입니다.</dt>
           <dd>
             <ul className='bullList'>
-              <li>Javascript, Vue.js, React, Jquery</li>
+              <li>새로운 기술, 공부는 직접 테스트를 통해 체득하고 그 기록을 남기고 있습니다.</li>
+              <li>군더더기 없이 효율적인 클린코드를 지양합니다. 그 과정에 시간투자 하는것에 거부감이 없습니다.</li>
+              <li>타 팀과의 커뮤니케이션에서 의사표현이 확실하며 일정 준수를 지양 합니다.</li>
+            </ul>
+          </dd>
+          <dt>[Skill &amp; Tool]</dt>
+          <dd>
+            <ul>
+              <li>Javascript, Vue.js, Jquery, React</li>
               <li>HTML5, CSS3, SCSS</li>
               <li>Webpack</li>
               <li>PhotoShop, Figma, Xd</li>
             </ul>
           </dd>
           <dt>[학력]</dt>
-          <dd>
-            <ul className='bullList'>
-              <li>한양사이버대학교<p>컴퓨터 공학과</p></li>
-            </ul>
-          </dd>
+          <dd>한양사이버대학교 - 컴퓨터 공학과</dd>
         </dl>
       </header>
       <Container vueProject={vueProject} careerDesc={careerDesc} />

@@ -1,87 +1,135 @@
 body {
-  background: linear-gradient(160deg,#90f 15%,#e9173d 30%,#f75e2c 60%,#e9173d 85%, #90f 100%);
+  background-color: #fff;
 }
 h1 {font-size: 2.4rem;}
 h2 {font-size: 2rem;}
 h3 {font-size: 1.8rem;}
 h4 {font-size: 1.6rem;}
-h1, h2, h3, h5 {color: #fff;}
+h1, h2, h3, h5 {color: #222;}
 .bullList > li {
   position: relative;
-  padding-left: 1rem;
-  font-size: 1.2rem;
+  padding-left: 0.8rem;
+  font-size: inherit;
 }
 .bullList > li:after {
-  content: '-';
+  content: '';
   position: absolute;
-  top: 0;
+  top: 0.8rem;
   left: 0;
+  width: 3px;
+  height: 3px;
+  background: #222;
+  border-radius: 50%;
 }
 
 #wrapper {
   position: relative;
-  padding: 1.6rem;
+  padding-top: 2.6rem;
   font-size: 1.4rem;
   word-break: keep-all;
+  color: #222;
+
+  background: url('../image/common/bg_wrapper.png') no-repeat 100% 1rem;
+  background-size: 50% auto
+}
+#wrapper:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1rem;
+  background-color: #e6e9ed;
 }
 
 header {
-  color: #fff;
+  padding: 0 1.6rem;
+  font-size: 1.4rem;
 }
 header > ul {
-  margin-top: 1.6rem;
+  margin-top: 2rem;
 }
-header > div {
-  margin-top: 1.6rem;
+header > ul > li {
+  display: flex;
+  align-items: center;
+}
+header > ul > li strong {
+  flex-shrink: 0;
+  width: 1.9rem;
+  height: 1.7rem;
+  background: url('../image/common/ico_email.png') no-repeat;
+  background-size: 100%;
+
+  font-size: 0;
+  line-height: 0;
+}
+header > ul > li strong.phone {
+  background-image: url('../image/common/ico_phone.png');
+}
+header > ul > li > span {
+  flex: 1;
+  padding-left: 1rem;
+  font-size: 2rem;
+}
+header > ul > li + li {
+  margin-top: 1rem;
+}
+header > dl dd {
+  font-weight: 300;
 }
 header > dl dt {
-  margin-top: 1.6rem;
+  margin-top: 3rem;
+  font-size: 2rem;
 }
-header .bullList > li {
-  font-size: 1.4rem;
+header > dl dt:first-child {
+  font-weight: 300;
 }
 
 #container {
-  padding: 8rem 0;
+  padding-top: 8rem;
 }
-#container .projectList > h2 {
+#container h2 {
   margin-bottom: 1.6rem;
+  padding-left: 1.6rem;
 }
 #container .projectList h3 {
   position: relative;
-  color: #fff;
   padding-bottom: 0.8rem;
+  padding-left: 1.6rem;
 }
 #container .projectList h3:after {
   content: '';
   position: absolute;
   bottom: 0;
-  left: 0;
-  width: calc(100% + 1.6rem);
-  height: 1px;
-  background-color: #d7d7d7;
+  left: 1rem;
+  width: calc(100% - 1rem);
+  height: 2px;
+  background-color: #ff0000;
 }
 #container .projectList > div + div {
   margin-top: 8rem;
 }
+#container .projectList > div > ul {
+  background-color: #222;
+}
 #container .projectList > div > ul > li {
   margin-top: 1.6rem;
-}
-#container .projectList > div > ul > li {
   overflow: hidden;
+  
+  padding: 1.2rem;
+  background-color: #222;
+  color: #222;
+}
+#container .projectList > div > ul > li h4 {
+  color: #ecebeb;
+}
+#container .projectList > div > ul > li > .inner {
+  margin-top: 1rem;
   display: flex;
   justify-content: space-between;
-
-  padding: 1.2rem;
-  /* border: 1px solid #d7d7d7; */
-  border-radius: 0.4rem;
-  background-color: #fff;
-  box-shadow: 2px 2px 0px #202020;
-
-  color: #000;
 }
 #container .projectList > div > ul > li .visual {
-  width: 10rem;
+  width: 9rem;
 }
 #container .projectList > div > ul > li .visual img {
   display:block;
@@ -90,10 +138,13 @@ header .bullList > li {
 }
 #container .projectList > div > ul > li .text {
   position: relative;
-  width: calc(100% - 11.2rem);
+  width: calc(100% - 10.2rem);
+  color: #ecebeb;
+}
+#container .projectList > div > ul > li .text h4 {
+  display: none;
 }
 #container .projectList > div > ul > li .text > ul {
-  margin-top: 0.8rem;
   padding-bottom: 4rem;
 }
 #container .projectList > div > ul > li .text > ul > li.comment {
@@ -102,7 +153,7 @@ header .bullList > li {
 }
 #container .projectList > div > ul > li .text > ul > li.period,
 #container .projectList > div > ul > li .text > ul > li.skill {
-  color: #999;
+  color: #ecebeb;
 }
 #container .projectList > div > ul > li .text > .linkArea {
   position: absolute;
@@ -114,26 +165,24 @@ header .bullList > li {
   justify-content: center;
   align-items: center;
   height: 3.2rem;
-  border-radius: 0.4rem;
-  background-color: #edecec;
-  border: 1px solid #d7d7d7;
+  border-radius: 1.6rem;
+  background-color: #e2e2e2;
 }
 #container .projectList > div > ul > li .text > .linkArea a {
   width: 50%;
   height: 100%;
   line-height: 3rem;
   text-align: center;
-  color: #000;
+  color: #434343;
 }
 #container .projectList > div > ul > li .text > .linkArea a + a {
   border-left: 1px solid #d7d7d7;
-  background-color: #fff;
+  background-color: #c6c6c6;
 }
-#container .projectList > div > ul > li.horizontal {
+#container .projectList > div > ul > li.horizontal .inner {
   flex-direction: column;
-  padding: 0;
 }
-#container .projectList > div > ul > li.horizontal > div {
+#container .projectList > div > ul > li.horizontal .inner > div {
   width: 100%;
 }
 #container .projectList > div > ul > li.horizontal .visual img {
@@ -143,10 +192,7 @@ header .bullList > li {
   border-bottom: 1px solid #ccc;
 }
 #container .projectList > div > ul > li.horizontal .text {
-  padding: 1.2rem;
-}
-#container .projectList > div > ul > li.horizontal .text > ul {
-  padding-bottom: 1rem;
+  padding: 1.2rem 0;
 }
 #container .projectList > div > ul > li.horizontal .text > .linkArea {
   position: static;
@@ -154,15 +200,13 @@ header .bullList > li {
 
 #container .careerDesc {
   margin-top: 8rem;
-  color: #fff;
 }
 #container .careerDesc > ul > li {
-  margin-top: 1.2rem;
-  padding-top: 1.2rem;
-  border-top: 1px solid #fff;
+  padding: 2rem 1.6rem;
+  background: #f8f8f8;
 }
-#container .careerDesc > ul > li + li {
-  margin-top: 3.2rem;
+#container .careerDesc > ul > li:nth-child(even) {
+  background-color: #f1f1f1;
 }
 #container .careerDesc > ul > li .title {
   display: flex;
@@ -186,28 +230,6 @@ header .bullList > li {
   left: 0;
 }
 
-body.pdfView {
-  background: #edecec;
-}
-body.pdfView h1,
-body.pdfView h2,
-body.pdfView h3,
-body.pdfView h5,
-body.pdfView #container .careerDesc,
-body.pdfView #wrapper header {
-  color: #000 !important;
-}
-body.pdfView #container .projectList > div > ul > li {
-  border: 1px solid #000;
-  box-shadow: none;
-}
-body.pdfView #container .careerDesc > ul > li {
-  border-color: #000;
-}
-body.pdfView #container .projectList h3:after {
-  background-color: #000;
-}
-
 @media all and (min-width:1024px) {
   h1 {font-size: 3.2rem;}
   h2 {font-size: 2.8rem;}
@@ -217,24 +239,38 @@ body.pdfView #container .projectList h3:after {
   #wrapper {
     width: 1024px;
     margin: 0 auto;
-    background: none;
+    padding: 8rem 0 0;
+    background-position: 100% 4rem;
+  }
+  #wrapper:after {
+    height: 4rem;
   }
   header {
-    font-size: 2rem;
+    padding: 0;
+    font-size: 2.4rem;
   }
-  header .bullList > li {
-    font-size: 1.6rem;
+  header > ul > li strong {
+    width: 3.8rem;
+    height: 3.4rem;
   }
-
-  #container .projectList > div > ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+  header > ul > li > span {
+    font-size: 2.4rem;
+  }
+  .bullList > li:after {
+    top: 1.2rem;
+  }
+  header > dl dt {
+    font-size: 3.4rem;
+  }
+  #container h2 {
+    padding: 0;
   }
   #container .projectList h3 {
+    padding-left: 1rem;
     font-size: 2.4rem;
   }
   #container .projectList h3:after {
+    left: 0;
     width: 100%;
   }
   #container .projectList > div + div {
@@ -242,12 +278,48 @@ body.pdfView #container .projectList h3:after {
   }
   #container .projectList > div > ul {
     margin-top: 2.4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem 0;
+    font-size: 1.8rem;
+    word-break: keep-all;
   }
   #container .projectList > div > ul > li {
     margin-top: 0;
   }
+  #container .projectList > div > ul > li .visual {
+    width: 12rem;
+  }
+  #container .projectList > div > ul > li .text {
+    width: calc(100% - 13.2rem);
+  }
+  #container .projectList > div > ul > li > h4 {
+    display: none;
+  }
+  #container .projectList > div > ul > li.horizontal {
+    position: relative;
+  }
+  #container .projectList > div > ul > li.horizontal .inner .text {
+    position: static;
+  }
+  #container .projectList > div > ul > li.horizontal .inner .text .linkArea {
+    position: absolute;
+    left: 1.2rem;
+    bottom: 1.2rem;
+    width: calc(100% - 2.4rem);
+  }
   #container .projectList > div.kyobo > ul {
+    position: relative;
     grid-template-columns: repeat(3, 1fr);
+  }
+  #container .projectList > div.kyobo > ul > li:nth-child(4) {
+    width: 150%;
+  }
+  #container .projectList > div.kyobo > ul > li:nth-child(5) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
   }
   #container .projectList > div.shinhan > ul > li:nth-child(1) {
     grid-column-start: 1;
@@ -255,23 +327,36 @@ body.pdfView #container .projectList h3:after {
     grid-row-start: 1;
     grid-row-end: 3;
   }
-
+  #container .projectList > div > ul > li .text > ul {
+    padding-bottom: 7rem;
+  }
+  #container .projectList > div > ul > li .text > ul > li.comment {
+    margin-bottom: 3rem;
+  }
+  #container .projectList > div > ul > li .text > .linkArea {
+    height: 5rem;
+    border-radius: 2.5rem;
+  }
+  #container .projectList > div > ul > li .text > .linkArea a {
+    line-height: 4.8rem;
+  }
   #container .careerDesc > ul {
-    margin-top: 3.2rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 0 4rem;
+    margin-top: 0;
     font-size: 1.8rem;
   }
   #container .careerDesc > ul > li {
-    padding: 3.2rem 0;
+    padding: 3.2rem;
     margin-top: 0;
-    border-top: 1px solid #fff;
+    font-size: 2.4rem;
   }
   #container .careerDesc > ul > li + li {
     margin-top: 0;
   }
+  #container .careerDesc > ul > li .title {
+    display: block;
+  }
   #container .careerDesc > ul > li .content dd {
-    font-size: 1.6rem;
+    font-size: inherit;
+    padding-left: 1.4rem;
   }
 }
