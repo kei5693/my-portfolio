@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.43fcf35c.css",
-    "main.js": "/my-portfolio/static/js/main.5bf88c57.js",
+    "main.js": "/my-portfolio/static/js/main.e4bb15d3.js",
     "static/js/787.1ed0c42c.chunk.js": "/my-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/NotoSans-Black.otf": "/my-portfolio/static/media/NotoSans-Black.0583fd5d76943887a81d.otf",
     "static/media/NotoSans-Light.otf": "/my-portfolio/static/media/NotoSans-Light.ec7f2349019731181656.otf",
@@ -21,11 +21,11 @@
     "static/media/bg_wrapper.png": "/my-portfolio/static/media/bg_wrapper.b97648a18ba4bec7f614.png",
     "index.html": "/my-portfolio/index.html",
     "main.43fcf35c.css.map": "/my-portfolio/static/css/main.43fcf35c.css.map",
-    "main.5bf88c57.js.map": "/my-portfolio/static/js/main.5bf88c57.js.map",
+    "main.e4bb15d3.js.map": "/my-portfolio/static/js/main.e4bb15d3.js.map",
     "787.1ed0c42c.chunk.js.map": "/my-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43fcf35c.css",
-    "static/js/main.5bf88c57.js"
+    "static/js/main.e4bb15d3.js"
   ]
 }
