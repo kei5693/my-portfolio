@@ -379,7 +379,7 @@ function App() {
       name:       '애비로드',
       department: '퍼블리싱',
       position:   '과장',
-      period:     '2016.06 ~ 2021.01',
+      period:     '2015.03 ~ 2016.05',
       work:       '고객사의 웹 사이트 운영, 구축 업무를 담당했습니다. 신라면세점 웹 점근성 마크 획득',
       client:     '현대카드, 신세계백화점, 신라면세점',
       skill:      'Jquery, Javascript, HTML5, CSS3'
