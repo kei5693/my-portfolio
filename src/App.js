@@ -379,8 +379,8 @@ function App() {
       name:       '애비로드',
       department: '퍼블리싱',
       position:   '과장',
-      period:     '2015.03 ~ 2016.05',
-      work:       '고객사의 웹 사이트 운영, 구축 업무를 담당했습니다.',
+      period:     '2016.06 ~ 2021.01',
+      work:       '고객사의 웹 사이트 운영, 구축 업무를 담당했습니다. 신라면세점 웹 점근성 마크 획득',
       client:     '현대카드, 신세계백화점, 신라면세점',
       skill:      'Jquery, Javascript, HTML5, CSS3'
     },
@@ -398,9 +398,9 @@ function App() {
       id:         5,
       name:       '김영일교육컨설팅',
       department: '개발팀',
-      position:   '연구원',
-      period:     '2014.04 ~ 2014.09',
-      work:       '자사 웹사이트 운영, 구축 업무를 담당했습니다.',
+      position:   '대리',
+      period:     '2014.09 ~ 2015.02',
+      work:       '자사 웹사이트 구축 업무를 담당했습니다.',
       client:     '웹표준, 웹 접근성, 크로스 브라우징',
       skill:      'Jquery, Javascript, HTML5, CSS3'
     },
