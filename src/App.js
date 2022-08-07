@@ -399,7 +399,7 @@ function App() {
       name:       '김영일교육컨설팅',
       department: '개발팀',
       position:   '대리',
-      period:     '2014.09 ~ 2015.02',
+      period:     '2014.04 ~ 2014.09',
       work:       '자사 웹사이트 구축 업무를 담당했습니다.',
       client:     '웹표준, 웹 접근성, 크로스 브라우징',
       skill:      'Jquery, Javascript, HTML5, CSS3'
