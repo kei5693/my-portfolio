@@ -370,7 +370,7 @@ function App() {
       department: '퍼블리싱',
       position:   '과장',
       period:     '2016.06 ~ 2021.01',
-      work:       '고객사의 웹 사이트 운영, 구축 업무를 담당했습니다.',
+      work:       '고객사의 웹 사이트 운영, 구축 업무를 담당했습니다. 신라면세점 웹 점근성 마크 획득',
       client:     '현대카드, 신세계백화점, 신라면세점',
       skill:      'Jquery, Javascript, HTML5, CSS3'
     },
@@ -380,7 +380,7 @@ function App() {
       department: '퍼블리싱',
       position:   '과장',
       period:     '2015.03 ~ 2016.05',
-      work:       '고객사의 웹 사이트 운영, 구축 업무를 담당했습니다. 신라면세점 웹 점근성 마크 획득',
+      work:       '고객사의 웹 사이트 운영, 구축 업무를 담당했습니다.',
       client:     '우리은행, 흥국생명, 데상트, 119 소방현장 통합관리 시스템, 삼성 SUHD TV 마이크로 사이트, CASS BEATS 프로모션 사이트, 싸이버로지텍 인트라넷',
       skill:      'Jquery, Javascript, HTML5, CSS3'
     },
