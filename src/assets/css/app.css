@@ -294,7 +294,7 @@ header > dl dt:first-child {
     width: calc(100% - 13.2rem);
   }
   #container .projectList > div > ul > li > h4 {
-    display: none;
+    /* display: none; */
   }
   #container .projectList > div > ul > li.horizontal {
     position: relative;

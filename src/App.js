@@ -193,6 +193,17 @@ function App() {
       project: [
         {
           id:       1,
+          title:    '라이나생명 GA채널 통합 플랫폼',
+          git:      '',
+          dist:     '',
+          img:      '/image/lina/ga.png',
+          imgType:  'vertical',
+          period:   '2022.02 ~ 2022.08',
+          comment:  '법인보험대리점(GA) 소속 설계사 대상 사이트 구축 퍼블리셔 PL',
+          skill:    'Jquery, Javascript, HTML5, SCSS'
+        },
+        {
+          id:       2,
           title:    '타로카드',
           git:      'https://github.com/kei5693/portfolio-lina-tarot-simulator',
           dist:     'https://kei5693.github.io/work/portfolio/lina-tarot-simulator/#/',
@@ -203,7 +214,7 @@ function App() {
           skill:    'Vue, Javascript, HTML5, SCSS'
         },
         {
-          id:       2,
+          id:       3,
           title:    '고연령 건강빙고',
           git:      'https://github.com/kei5693/portfolio-lina-bingo-simulator',
           dist:     'https://kei5693.github.io/work/portfolio/lina-bingo-simulator/#/',
@@ -214,7 +225,7 @@ function App() {
           skill:    'Vue, Javascript, HTML5, SCSS'
         },
         {
-          id:       3,
+          id:       4,
           title:    '저연령 건강OX',
           git:      'https://github.com/kei5693/portfolio-lina-health-simulator',
           dist:     'https://kei5693.github.io/work/portfolio/lina-health-simulator/#/',
@@ -225,7 +236,7 @@ function App() {
           skill:    'Vue, Javascript, HTML5, SCSS'
         },
         {
-          id:       4,
+          id:       5,
           title:    '치매진단 모바일 시뮬레이터',
           git:      'https://github.com/kei5693/portfolio-lina-alzheimer',
           dist:     'https://kei5693.github.io/portfolio-lina-alzheimer/index.html',
