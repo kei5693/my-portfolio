@@ -308,6 +308,9 @@ header > dl dt:first-child {
     bottom: 1.2rem;
     width: calc(100% - 2.4rem);
   }
+  #container .projectList > div > ul > li .inner .text .linkArea.hidden {
+    display: none;
+  }
   #container .projectList > div.kyobo > ul {
     position: relative;
     grid-template-columns: repeat(3, 1fr);

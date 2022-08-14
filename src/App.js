@@ -33,7 +33,8 @@ function Container(props){
                   <li className="period">{client.period}</li>
                   <li className="skill">{client.skill}</li>
                 </ul>
-                <div className="linkArea">
+                <div className={client.git === '' ? "linkArea hidden" : "linkArea"}
+                >
                   <a href={client.git} target="_blank" rel="noreferrer">GIT</a>
                   <a href={client.dist} target="_blank" rel="noreferrer">DIST</a>
                 </div>
