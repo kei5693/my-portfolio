@@ -370,7 +370,7 @@ function App() {
       id:         1,
       name:       '이다커뮤니케이션즈',
       department: '개발팀',
-      position:   '과장',
+      position:   '차장',
       period:     '2021.01 ~ 2022.08',
       work:       'Vue.js를 이용해 보험상품 판매를 위한 시뮬레이터(모바일, 태블릿) 사이트를 만들었습니다.',
       client:     '교보생명, 라이나생명, 신한라이프, 동양생명',
