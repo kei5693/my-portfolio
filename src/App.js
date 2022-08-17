@@ -371,7 +371,7 @@ function App() {
       name:       '이다커뮤니케이션즈',
       department: '개발팀',
       position:   '과장',
-      period:     '2021.01 ~ 재직중',
+      period:     '2021.01 ~ 2022.08',
       work:       'Vue.js를 이용해 보험상품 판매를 위한 시뮬레이터(모바일, 태블릿) 사이트를 만들었습니다.',
       client:     '교보생명, 라이나생명, 신한라이프, 동양생명',
       skill:      'Vue, Javascript, HTML5, CSS3'
@@ -443,10 +443,10 @@ function App() {
       <header>
         <h1>오경훈(KyungHoon Oh)</h1>
 
-        <ul>
+        {/* <ul>
           <li><strong className='email'>이메일</strong><span>keichi5693@gmail.com</span></li>
           <li><strong className='phone'>연락처</strong><span>010-5249-2123</span></li>
-        </ul>
+        </ul> */}
 
         <dl>
           <dt>안녕하세요? 프론트엔드 개발자 오경훈입니다.</dt>
