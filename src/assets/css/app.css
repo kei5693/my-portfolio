@@ -110,15 +110,18 @@ header > dl dt:first-child {
   margin-top: 8rem;
 }
 #container .projectList > div > ul {
-  background-color: #222;
+  margin-top: 1.6rem;
 }
 #container .projectList > div > ul > li {
-  margin-top: 1.6rem;
   overflow: hidden;
   
   padding: 1.2rem;
   background-color: #222;
   color: #222;
+  transition: background-color 0.3s;
+}
+#container .projectList > div > ul > li:nth-child(even) {
+  background: #555;
 }
 #container .projectList > div > ul > li h4 {
   color: #ecebeb;
@@ -280,21 +283,25 @@ header > dl dt:first-child {
     margin-top: 2.4rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem 0;
+    grid-gap: 1rem;
     font-size: 1.8rem;
     word-break: keep-all;
   }
   #container .projectList > div > ul > li {
     margin-top: 0;
+    border-radius: 1rem;
+  }
+  #container .projectList > div > ul > li:nth-child(even) {
+    background: #222;
+  }
+  #container .projectList > div > ul > li:hover {
+    background: #555;
   }
   #container .projectList > div > ul > li .visual {
     width: 12rem;
   }
   #container .projectList > div > ul > li .text {
     width: calc(100% - 13.2rem);
-  }
-  #container .projectList > div > ul > li > h4 {
-    /* display: none; */
   }
   #container .projectList > div > ul > li.horizontal {
     position: relative;
@@ -343,6 +350,7 @@ header > dl dt:first-child {
   #container .projectList > div > ul > li .text > .linkArea a {
     line-height: 4.8rem;
   }
+
   #container .careerDesc > ul {
     margin-top: 0;
     font-size: 1.8rem;

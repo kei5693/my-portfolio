@@ -31,7 +31,7 @@ function App() {
               <li>Javascript, Vue.js, Jquery, React</li>
               <li>HTML5, CSS3, SCSS</li>
               <li>Webpack</li>
-              <li>PhotoShop, Figma, Xd</li>
+              <li>Figma, PhotoShop, Xd </li>
             </ul>
           </dd>
           <dt>[학력]</dt>
