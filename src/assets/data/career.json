@@ -1,0 +1,82 @@
+[
+  {
+    "id":         "1",
+    "name":       "토스",
+    "department": "IT사업 1팀",
+    "position":   "사원",
+    "period":     "2012.03 ~ 2012.12",
+    "work":       "고객사의 웹 사이트 운영, 구축 업무를 담당했습니다.",
+    "client":     "팬택 휴대폰 전자매뉴얼 구축, 팬택 계열사 라츠 mall 운영",
+    "skill":      "Jquery, Javascript, HTML5, CSS"
+  },
+  {
+    "id":         "2",
+    "name":       "웹비젼",
+    "department": "퍼블리싱사업부",
+    "position":   "사원",
+    "period":     "2012.12 ~ 2013.12",
+    "work":       "고객사의 웹 사이트 운영, 구축 업무를 담당했습니다.",
+    "client":     "한솔 그룹, 순천향대학교, 동국대학교 전산원, 세명대학교, 에듀윌, LG U+, 유니클로, 푸마, 키엘, 무인양품",
+    "skill":      "Jquery, Javascript, HTML5, CSS"
+  },
+  {
+    "id":         "3",
+    "name":       "김영일교육컨설팅",
+    "department": "개발팀",
+    "position":   "대리",
+    "period":     "2014.04 ~ 2014.09",
+    "work":       "자사 웹사이트 구축 업무를 담당했습니다.",
+    "client":     "웹표준, 웹 접근성, 크로스 브라우징",
+    "skill":      "Jquery, Javascript, HTML5, CSS"
+  },
+  {
+    "id":         "4",
+    "name":       "문화마케팅연구소",
+    "department": "개발팀",
+    "position":   "대리",
+    "period":     "2014.09 ~ 2015.02",
+    "work":       "자사 웹사이트 운영, 구축 업무를 담당했습니다.",
+    "client":     "웹표준, 웹 접근성, 크로스 브라우징",
+    "skill":      "Jquery, Javascript, HTML5, CSS3"
+  },
+  {
+    "id":         "5",
+    "name":       "애비로드",
+    "department": "퍼블리싱",
+    "position":   "과장",
+    "period":     "2015.03 ~ 2016.05",
+    "work":       "고객사의 웹 사이트 운영, 구축 업무를 담당했습니다.",
+    "client":     "우리은행, 흥국생명, 데상트, 119 소방현장 통합관리 시스템, 삼성 SUHD TV 마이크로 사이트, CASS BEATS 프로모션 사이트, 싸이버로지텍 인트라넷",
+    "skill":      "Jquery, Javascript, HTML5, CSS3"
+  },
+  {
+    "id":         "6",
+    "name":       "아이파트너즈",
+    "department": "퍼블리싱",
+    "position":   "과장",
+    "period":     "2016.06 ~ 2021.01",
+    "work":       "고객사의 웹 사이트 운영, 구축 업무를 담당했습니다. 신세계백화점 웹 접근성 마크 획득",
+    "client":     "현대카드, 신세계백화점, 신라면세점",
+    "skill":      "Jquery, Javascript, HTML5, CSS3"
+  },
+  {
+    "id":         "7",
+    "name":       "이다커뮤니케이션즈",
+    "department": "개발팀",
+    "position":   "차장",
+    "period":     "2021.01 ~ 2022.08",
+    "work":       "Vue.js를 이용해 보험상품 판매를 위한 시뮬레이터(모바일, 태블릿) 사이트를 만들었습니다.",
+    "client":     "교보생명, 라이나생명, 신한라이프, 동양생명",
+    "skill":      "Vue, Javascript, HTML5, CSS3"
+  },
+  {
+    "id":         "8",
+    "name":       "잡코리아",
+    "department": "UIT",
+    "position":   "프리랜서",
+    "period":     "2022.09 ~ 2023.02",
+    "work":       "잡코리아 서비스 구축, 리뉴얼(커리어패스, 인재검색, 지원자검색)",
+    "client":     "",
+    "skill":      "Jquery, Javascript, HTML5, CSS3"
+  }
+]
