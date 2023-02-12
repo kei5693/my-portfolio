@@ -11,7 +11,7 @@
         "img":      "/image/jobkorea.png",
         "imgType":  "vertical",
         "period":   "2022.09 ~ 2023.02",
-        "comment":  "잡코리아 서비스 구축, 리뉴얼(커리어패스, 인재검색, 지원자검색)",
+        "comment":  "잡코리아 서비스 구축, 리뉴얼\n(커리어패스, 인재검색, 지원자검색)",
         "skill":    "Jquery, Javascript, HTML5, SCSS"
       }
     ]

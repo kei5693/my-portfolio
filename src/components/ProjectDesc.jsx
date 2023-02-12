@@ -25,7 +25,10 @@ export default function ProjectDesc(props){
                   <div className='text'>
                     <h4>{item.title}</h4>
                     <ul>
-                      <li className="comment">{item.comment}</li>
+                      <li className="comment">{
+                        item.comment.split('\n').map((line, index) => <span key={index}>{line}<br/></span>)
+                      }
+                      </li>
                       <li className="period">{item.period}</li>
                       <li className="skill">{item.skill}</li>
                     </ul>
