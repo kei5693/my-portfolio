@@ -78,5 +78,15 @@
     "work":       "잡코리아 서비스 구축, 리뉴얼(커리어패스, 인재검색, 지원자검색)",
     "client":     "",
     "skill":      "Jquery, Javascript, HTML5, CSS3"
+  },
+  {
+    "id":         "9",
+    "name":       "CJ올리브영",
+    "department": "UIT",
+    "position":   "프리랜서",
+    "period":     "2023.04 ~ 2023.08",
+    "work":       "CJ올리브영 환율가격관리 프로젝트(메인, 장바구니, 주문서, 레이어 팝업 등 사이트 주요 페이지 리뉴얼)",
+    "client":     "",
+    "skill":      "Jquery, Javascript, HTML5, CSS3"
   }
 ]

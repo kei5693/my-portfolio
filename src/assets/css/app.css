@@ -200,6 +200,9 @@ header > dl dt:first-child {
 #container .projectList > div > ul > li.horizontal .text > .linkArea {
   position: static;
 }
+#container .projectList > div > ul > li .inner .text .linkArea.hidden {
+  display: none;
+}
 
 #container .careerDesc {
   margin-top: 8rem;
@@ -314,9 +317,6 @@ header > dl dt:first-child {
     left: 1.2rem;
     bottom: 1.2rem;
     width: calc(100% - 2.4rem);
-  }
-  #container .projectList > div > ul > li .inner .text .linkArea.hidden {
-    display: none;
   }
   #container .projectList > div.kyobo > ul {
     position: relative;

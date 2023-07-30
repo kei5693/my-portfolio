@@ -1,5 +1,22 @@
 [
   {
+    "client": "CJ올리브영",
+    "className": "jobkorea",
+    "project": [
+      {
+        "id":       "1",
+        "title":    "올리브영",
+        "git":      "",
+        "dist":     "https://global.oliveyoung.com/",
+        "img":      "/image/oliveyoung.png",
+        "imgType":  "vertical",
+        "period":   "2023.04 ~ 2023.08",
+        "comment":  "CJ올리브영 환율가격관리 프로젝트\n(메인, 장바구니, 주문서, 레이어 팝업 등 사이트 주요 페이지 리뉴얼)",
+        "skill":    "Jquery, Javascript, HTML5, SCSS"
+      }
+    ]
+  },
+  {
     "client": "잡코리아",
     "className": "jobkorea",
     "project": [
