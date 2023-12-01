@@ -88,5 +88,15 @@
     "work":       "CJ올리브영 환율가격관리 프로젝트(메인, 장바구니, 주문서, 레이어 팝업 등 사이트 주요 페이지 리뉴얼)",
     "client":     "",
     "skill":      "Jquery, Javascript, HTML5, CSS3"
+  },
+  {
+    "id":         "10",
+    "name":       "현대백화점",
+    "department": "UIT",
+    "position":   "프리랜서",
+    "period":     "2023.9 ~ 2024.01.24",
+    "work":       "현대백화점 통합멤버십 H.point의 포인트워크 고도화",
+    "client":     "",
+    "skill":      "Jquery, Javascript, HTML5, CSS3"
   }
 ]

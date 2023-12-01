@@ -1,5 +1,22 @@
 [
   {
+    "client": "현대백회점",
+    "className": "jobkorea",
+    "project": [
+      {
+        "id":       "1",
+        "title":    "H.point의 포인트워크 고도화",
+        "git":      "",
+        "dist":     "https://global.oliveyoung.com/",
+        "img":      "/image/hpoint.png",
+        "imgType":  "vertical",
+        "period":   "2023.04 ~ 2023.08",
+        "comment":  "현대백화점 통합멤버십 H.point의 걷기 메뉴인 포인트워크 고도화",
+        "skill":    "Jquery, Javascript, HTML5, SCSS"
+      }
+    ]
+  },
+  {
     "client": "CJ올리브영",
     "className": "jobkorea",
     "project": [
