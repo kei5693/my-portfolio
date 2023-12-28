@@ -1,6 +1,6 @@
 [
   {
-    "client": "현대백회점",
+    "client": "현대백화점",
     "className": "jobkorea",
     "project": [
       {
@@ -12,7 +12,7 @@
         "imgType":  "vertical",
         "period":   "2023.04 ~ 2023.08",
         "comment":  "현대백화점 통합멤버십 H.point의 걷기 메뉴인 포인트워크 고도화",
-        "skill":    "Jquery, Javascript, HTML5, SCSS"
+        "skill":    "Javascript, Jquery, HTML5, SCSS"
       }
     ]
   },
@@ -29,7 +29,7 @@
         "imgType":  "vertical",
         "period":   "2023.04 ~ 2023.08",
         "comment":  "CJ올리브영 환율가격관리 프로젝트\n(메인, 장바구니, 주문서, 레이어 팝업 등 사이트 주요 페이지 리뉴얼)",
-        "skill":    "Jquery, Javascript, HTML5, SCSS"
+        "skill":    "Javascript, Jquery, HTML5, SCSS"
       }
     ]
   },
@@ -46,7 +46,7 @@
         "imgType":  "vertical",
         "period":   "2022.09 ~ 2023.02",
         "comment":  "잡코리아 서비스 구축, 리뉴얼\n(커리어패스, 인재검색, 지원자검색)",
-        "skill":    "Jquery, Javascript, HTML5, SCSS"
+        "skill":    "Javascript, Jquery, HTML5, SCSS"
       }
     ]
   },
@@ -63,7 +63,7 @@
         "imgType":  "vertical",
         "period":   "2022.02 ~ 2022.08",
         "comment":  "법인보험대리점(GA) 소속 설계사 대상 사이트 구축 퍼블리셔 PL",
-        "skill":    "Jquery, Javascript, HTML5, SCSS"
+        "skill":    "Javascript, Jquery, HTML5, SCSS"
       },
       {
         "id":       "2",
