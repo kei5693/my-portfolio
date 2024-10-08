@@ -1,5 +1,39 @@
 [
   {
+    "client": "AIA 생명",
+    "className": "aia",
+    "project": [
+      {
+        "id":       "1",
+        "title":    "AIA 생명 리뉴얼 퍼블리싱 구축",
+        "git":      "",
+        "dist":     "",
+        "img":      "/image/aia.png",
+        "imgType":  "horizontal",
+        "period":   "2024.08 ~ 2024.09",
+        "comment":  "AEM을 사용 커스텀을 통한 AIA 생명 리뉴얼 구축",
+        "skill":    "AEM, Javascript, HTML5, SCSS"
+      }
+    ]
+  },
+  {
+    "client": "한화시스템",
+    "className": "hanwha",
+    "project": [
+      {
+        "id":       "1",
+        "title":    "한국교과서협회 AI디지털교과서 공동플랫폼 구축",
+        "git":      "",
+        "dist":     "",
+        "img":      "/image/hanwha.png",
+        "imgType":  "horizontal",
+        "period":   "2024.02 ~ 2024.07",
+        "comment":  "AI 디지털 교과서 구축에서 사용하는 UI/UX 퍼블리싱, 사용되는 이벤트 스크립트 작성",
+        "skill":    "Vue.js, Javascript, HTML5, SCSS"
+      }
+    ]
+  },
+  {
     "client": "현대백화점",
     "className": "jobkorea",
     "project": [

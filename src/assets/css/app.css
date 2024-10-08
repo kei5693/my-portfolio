@@ -245,7 +245,7 @@ header > dl dt:first-child {
   #wrapper {
     width: 1024px;
     margin: 0 auto;
-    padding: 8rem 0 0;
+    padding: 8rem 0;
     background-position: 100% 4rem;
   }
   #wrapper:after {

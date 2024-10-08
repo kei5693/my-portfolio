@@ -42,7 +42,7 @@
   {
     "id":         "5",
     "name":       "애비로드",
-    "department": "퍼블리싱",
+    "department": "퍼블리셔",
     "position":   "과장",
     "period":     "2015.03 ~ 2016.05",
     "work":       "고객사의 웹 사이트 운영, 구축 업무를 담당했습니다.",
@@ -52,7 +52,7 @@
   {
     "id":         "6",
     "name":       "아이파트너즈",
-    "department": "퍼블리싱",
+    "department": "퍼블리셔",
     "position":   "과장",
     "period":     "2016.06 ~ 2021.01",
     "work":       "고객사의 웹 사이트 운영, 구축 업무를 담당했습니다. 신세계백화점 웹 접근성 마크 획득",
@@ -72,7 +72,7 @@
   {
     "id":         "8",
     "name":       "잡코리아",
-    "department": "UIT",
+    "department": "퍼블리셔",
     "position":   "프리랜서",
     "period":     "2022.09 ~ 2023.02",
     "work":       "잡코리아 서비스 구축, 리뉴얼(커리어패스, 인재검색, 지원자검색)",
@@ -82,7 +82,7 @@
   {
     "id":         "9",
     "name":       "CJ올리브영",
-    "department": "UIT",
+    "department": "퍼블리셔",
     "position":   "프리랜서",
     "period":     "2023.04 ~ 2023.08",
     "work":       "CJ올리브영 환율가격관리 프로젝트(메인, 장바구니, 주문서, 레이어 팝업 등 사이트 주요 페이지 리뉴얼)",
@@ -92,11 +92,31 @@
   {
     "id":         "10",
     "name":       "현대백화점",
-    "department": "UIT",
+    "department": "퍼블리셔",
     "position":   "프리랜서",
-    "period":     "2023.9 ~ 2024.01.24",
+    "period":     "2023.09 ~ 2024.01",
     "work":       "현대백화점 통합멤버십 H.point 포인트워크 고도화",
     "client":     "",
     "skill":      "Jquery, Javascript, HTML5, CSS3"
+  },
+  {
+    "id":         "11",
+    "name":       "한화시스템",
+    "department": "퍼블리셔",
+    "position":   "프리랜서",
+    "period":     "2024.02 ~ 2024.07",
+    "work":       "한국교과서협회 AI디지털교과서 공동플랫폼 구축",
+    "client":     "",
+    "skill":      "Vue,js, Javascript, HTML5, CSS3"
+  },
+  {
+    "id":         "12",
+    "name":       "AIA생명",
+    "department": "퍼블리셔",
+    "position":   "프리랜서",
+    "period":     "2024.08 ~ 2024.09",
+    "work":       "AIA 생명 리뉴얼 퍼블리싱 구축",
+    "client":     "",
+    "skill":      "AEM, Javascript, HTML5, CSS3"
   }
 ]
