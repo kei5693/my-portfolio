@@ -6,8 +6,8 @@
       {
         "id":       "1",
         "title":    "AIA 생명 리뉴얼 퍼블리싱 구축",
-        "git":      "",
-        "dist":     "",
+        "git":      "none",
+        "dist":     "https://www.aia.co.kr/ko/index.html",
         "img":      "/image/aia.png",
         "imgType":  "horizontal",
         "period":   "2024.08 ~ 2024.09",
@@ -23,12 +23,34 @@
       {
         "id":       "1",
         "title":    "한국교과서협회 AI디지털교과서 공동플랫폼 구축",
-        "git":      "",
-        "dist":     "",
-        "img":      "/image/hanwha.png",
+        "git":      "https://github.com/kei5693/courseware-pub",
+        "dist":     "https://kei5693.github.io/work/portfolio/courseware-pub/",
+        "img":      "/image/hanwha1.png",
         "imgType":  "horizontal",
         "period":   "2024.02 ~ 2024.07",
-        "comment":  "AI 디지털 교과서 구축에서 사용하는 UI/UX 퍼블리싱, 사용되는 이벤트 스크립트 작성",
+        "comment":  "코스웨어 뷰어",
+        "skill":    "Vue.js, Javascript, HTML5, SCSS"
+      },
+      {
+        "id":       "2",
+        "title":    "한국교과서협회 AI디지털교과서 공동플랫폼 구축",
+        "git":      "https://github.com/kei5693/aidt-cc-pub",
+        "dist":     "https://kei5693.github.io/work/portfolio/aidt-cc-pub/",
+        "img":      "/image/hanwha2.png",
+        "imgType":  "horizontal",
+        "period":   "2024.02 ~ 2024.07",
+        "comment":  "조합도구",
+        "skill":    "Vue.js, Javascript, HTML5, SCSS"
+      },
+      {
+        "id":       "3",
+        "title":    "한국교과서협회 AI디지털교과서 공동플랫폼 구축",
+        "git":      "https://github.com/kei5693/market-pub",
+        "dist":     "https://kei5693.github.io/work/portfolio/market-pub/",
+        "img":      "/image/hanwha3.png",
+        "imgType":  "horizontal",
+        "period":   "2024.02 ~ 2024.07",
+        "comment":  "마켓플레이스",
         "skill":    "Vue.js, Javascript, HTML5, SCSS"
       }
     ]
@@ -57,7 +79,7 @@
       {
         "id":       "1",
         "title":    "올리브영",
-        "git":      "",
+        "git":      "none",
         "dist":     "https://global.oliveyoung.com/",
         "img":      "/image/oliveyoung.png",
         "imgType":  "vertical",
@@ -74,8 +96,8 @@
       {
         "id":       "1",
         "title":    "잡코리아",
-        "git":      "",
-        "dist":     "https://www.jobkorea.co.kr/",
+        "git":      "none",
+        "dist":     "https://www.jobkorea.co.kr/Corp/Person/Find",
         "img":      "/image/jobkorea.png",
         "imgType":  "vertical",
         "period":   "2022.09 ~ 2023.02",

@@ -172,7 +172,7 @@ header > dl dt:first-child {
   background-color: #e2e2e2;
 }
 #container .projectList > div > ul > li .text > .linkArea a {
-  width: 50%;
+  flex: 1;
   height: 100%;
   line-height: 3rem;
   text-align: center;
@@ -336,6 +336,16 @@ header > dl dt:first-child {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
+  }
+  #container .projectList > div.hanwha > ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #container .projectList > div > ul > li.horizontal .visual {
+    height: 23.4rem;
+  }
+  #container .projectList > div > ul > li.horizontal .visual img {
+    object-fit: cover;
+    height: 100%;
   }
   #container .projectList > div > ul > li .text > ul {
     padding-bottom: 7rem;

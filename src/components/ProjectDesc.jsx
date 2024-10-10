@@ -34,8 +34,12 @@ export default function ProjectDesc(props){
                     </ul>
                     <div className={item.git === '' ? "linkArea hidden" : "linkArea"}
                     >
-                      <a href={item.git} target="_blank" rel="noreferrer">GIT</a>
-                      <a href={item.dist} target="_blank" rel="noreferrer">DIST</a>
+                      {item.git !== "none" && (
+                        <a href={item.git} target="_blank" rel="noreferrer">GIT</a>
+                      )}
+                      {item.dist !== "none" && (
+                        <a href={item.dist} target="_blank" rel="noreferrer">DIST</a>
+                      )}
                     </div>
                   </div>
                 </div>
