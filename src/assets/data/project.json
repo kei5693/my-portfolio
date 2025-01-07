@@ -1,5 +1,22 @@
 [
   {
+    "client": "경륜경정총괄본부",
+    "className": "경륜경정총괄본부",
+    "project": [
+      {
+        "id":       "1",
+        "title":    "고객맞춤형 경주콘텐츠 서비스를 위한\n경륜경정 홈페이지 재구축",
+        "git":      "none",
+        "dist":     "https://www.kcycle.or.kr/contents/main/mainPage.do",
+        "img":      "/image/kcycle.jpg",
+        "imgType":  "horizontal",
+        "period":   "2024.10 ~ 2024.12",
+        "comment":  "경륜, 경정 웹 사이트 리뉴얼",
+        "skill":    "Javascript, HTML5, SCSS"
+      }
+    ]
+  },
+  {
     "client": "AIA 생명",
     "className": "aia",
     "project": [
