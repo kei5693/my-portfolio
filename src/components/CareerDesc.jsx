@@ -15,7 +15,7 @@ export default function CareerDesc(props){
         </div>
 
         <dl className='content'>
-          <dt>{el.work}</dt>
+          <dt>{el.work.split('\n').map((line, index) => <span key={index}>{line}<br/></span>)}</dt>
           <dd>{el.client}</dd>
           <dd>{el.skill}</dd>
         </dl>

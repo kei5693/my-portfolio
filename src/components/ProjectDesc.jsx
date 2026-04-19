@@ -17,26 +17,28 @@ export default function ProjectDesc(props){
                 key={item.id}
                 className={item.imgType === 'horizontal' ? "horizontal" : ""}
               >
-                <h4>{item.title}</h4>
+                <h4>{item.title.split('\n').map((line, index) => <span key={index}>{line}<br/></span>)}</h4>
                 <div className='inner'>
-                  <div className='visual'>
-                    <img src={`${process.env.PUBLIC_URL + item.img}`} alt="" />
-                  </div>
+                  <div className='visual'><img src={`${process.env.PUBLIC_URL + item.img}`} alt="" /></div>
+
                   <div className='text'>
                     <h4>{item.title}</h4>
-                    <ul>
-                      <li className="comment">{
-                        item.comment.split('\n').map((line, index) => <span key={index}>{line}<br/></span>)
-                      }
+
+                    <ul className={item.git === 'none' && item.dist === 'none' ? "interval" : ""}>
+                      <li className="comment">
+                        {
+                          item.comment.split('\n').map((line, index) => <span key={index}>{line}<br/></span>)
+                        }
                       </li>
                       <li className="period">{item.period}</li>
                       <li className="skill">{item.skill}</li>
                     </ul>
-                    <div className={item.git === '' ? "linkArea hidden" : "linkArea"}
-                    >
+
+                    <div className={item.git === 'none' && item.dist === 'none' ? "linkArea hidden" : "linkArea"}>
                       {item.git !== "none" && (
                         <a href={item.git} target="_blank" rel="noreferrer">GIT</a>
                       )}
+
                       {item.dist !== "none" && (
                         <a href={item.dist} target="_blank" rel="noreferrer">DIST</a>
                       )}

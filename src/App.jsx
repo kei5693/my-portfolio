@@ -12,7 +12,7 @@ function App() {
         <h1>오경훈(Oh KyungHoon)</h1>
 
         <ul>
-          <li><strong className='email'>이메일</strong><span>keichi5693@gmail.com</span></li>
+          <li><strong className='email'>이메일</strong><span>keichi5693@naver.com</span></li>
           <li><strong className='phone'>연락처</strong><span>010-5249-2123</span></li>
         </ul>
 
@@ -29,9 +29,9 @@ function App() {
           <dd>
             <ul>
               <li>Javascript, Vue.js, Jquery, React</li>
-              <li>HTML5, CSS3, SCSS</li>
+              <li>HTML5, CSS3, SCSS, Tailwind</li>
               <li>Webpack</li>
-              <li>Figma, PhotoShop, Xd </li>
+              <li>Figma, PhotoShop, Xd</li>
             </ul>
           </dd>
           {/* <dt>[학력]</dt>

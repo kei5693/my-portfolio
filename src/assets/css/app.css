@@ -347,6 +347,7 @@ header > dl dt:first-child {
     object-fit: cover;
     height: 100%;
   }
+  #container .projectList > div > ul > li .text > ul.interval {padding-bottom: 0;}
   #container .projectList > div > ul > li .text > ul {
     padding-bottom: 7rem;
   }

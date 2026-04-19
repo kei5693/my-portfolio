@@ -1,18 +1,18 @@
 [
   {
-    "client": "경륜경정총괄본부",
-    "className": "경륜경정총괄본부",
+    "client": "삼성 E&A",
+    "className": "samsung",
     "project": [
       {
         "id":       "1",
-        "title":    "고객맞춤형 경주콘텐츠 서비스를 위한\n경륜경정 홈페이지 재구축",
+        "title":    "시스템 개발 프로세스 효율화 및 UI/UX 리뉴얼",
         "git":      "none",
-        "dist":     "https://www.kcycle.or.kr/contents/main/mainPage.do",
-        "img":      "/image/kcycle.jpg",
+        "dist":     "none",
+        "img":      "/image/samsung.jpg",
         "imgType":  "horizontal",
-        "period":   "2024.10 ~ 2024.12",
-        "comment":  "경륜, 경정 웹 사이트 리뉴얼",
-        "skill":    "Javascript, HTML5, SCSS"
+        "period":   "2026.03 ~ 2026.04",
+        "comment":  "기존 Vue.js 2.0에서 3.0으로 마이그레이션, 공통 컴포넌트 제작, 라이브러리 커스텀, 디자인 변경",
+        "skill":    "Vue.js, Javascript, HTML5, SCSS"
       }
     ]
   },
@@ -22,6 +22,17 @@
     "project": [
       {
         "id":       "1",
+        "title":    "AIA VROBS 재구축",
+        "git":      "none",
+        "dist":     "none",
+        "img":      "/image/aia_vrobs.jpg",
+        "imgType":  "horizontal",
+        "period":   "2025.09 ~ 2025.12",
+        "comment":  "AIA의 고객 보험 가입 녹취 내역을 관리하는 웹사이트 VROBS를\n React 기반 Next.js 환경에서 퍼블리싱 및 컴포넌트 구현",
+        "skill":    "React(Next.js), HTML5, SCSS, Javascript, Tailwind"
+      },
+      {
+        "id":       "2",
         "title":    "AIA 생명 리뉴얼 퍼블리싱 구축",
         "git":      "none",
         "dist":     "https://www.aia.co.kr/ko/index.html",
@@ -30,6 +41,40 @@
         "period":   "2024.08 ~ 2024.09",
         "comment":  "AEM을 사용 커스텀을 통한 AIA 생명 리뉴얼 구축",
         "skill":    "AEM, Javascript, HTML5, SCSS"
+      }
+    ]
+  },
+  {
+    "client": "저축은행중앙회",
+    "className": "sbbank",
+    "project": [
+      {
+        "id":       "1",
+        "title":    "SB 톡톡+ 금융상품몰 개편사업",
+        "git":      "none",
+        "dist":     "https://play.google.com/store/apps/details?id=kr.or.sbbank.plus&hl=ko",
+        "img":      "/image/sbbank.jpg",
+        "imgType":  "vertical",
+        "period":   "2025.04 ~ 2025.08",
+        "comment":  "금융상품몰 계좌개설 개편(모임통장, 법인, 미성년자)",
+        "skill":    "웹접근성(WAI-ARIA), Javascript, Jquery, HTML5, SCSS"
+      }
+    ]
+  },
+  {
+    "client": "경륜경정총괄본부",
+    "className": "kcycle",
+    "project": [
+      {
+        "id":       "1",
+        "title":    "고객맞춤형 경주콘텐츠 서비스를 위한\n경륜경정 홈페이지 재구축",
+        "git":      "none",
+        "dist":     "https://www.kcycle.or.kr/main",
+        "img":      "/image/kcycle.jpg",
+        "imgType":  "horizontal",
+        "period":   "2024.10 ~ 2024.12",
+        "comment":  "경륜, 경정 웹 사이트 리뉴얼",
+        "skill":    "Javascript, HTML5, SCSS"
       }
     ]
   },
