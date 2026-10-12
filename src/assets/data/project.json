@@ -1,5 +1,22 @@
 [
   {
+    "client": "경기신용보증재단",
+    "className": "gcgf",
+    "project": [
+      {
+        "id":       "1",
+        "title":    "디지털고도화 구축",
+        "git":      "none",
+        "dist":     "none",
+        "img":      "/image/gcgf.png",
+        "imgType":  "horizontal",
+        "period":   "2026.07 ~ 2026.09",
+        "comment":  "공통 컴포넌트 제작, 라이브러리 커스텀, 디자인 변경, 웹 접근성",
+        "skill":    "React(Next.js), HTML5, SCSS, Javascript, Tailwind, 웹 접근성"
+      }
+    ]
+  },
+  {
     "client": "삼성 E&A",
     "className": "samsung",
     "project": [
@@ -10,7 +27,7 @@
         "dist":     "none",
         "img":      "/image/samsung.jpg",
         "imgType":  "horizontal",
-        "period":   "2026.03 ~ 2026.04",
+        "period":   "2026.03 ~ 2026.05",
         "comment":  "기존 Vue.js 2.0에서 3.0으로 마이그레이션, 공통 컴포넌트 제작, 라이브러리 커스텀, 디자인 변경",
         "skill":    "Vue.js, Javascript, HTML5, SCSS"
       }
