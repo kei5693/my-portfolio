@@ -1,5 +1,22 @@
 [
   {
+    "client": "경기도교육청",
+    "className": "goe",
+    "project": [
+      {
+        "id":       "1",
+        "title":    "AI 데이터중심의 경기교육 디지털 플랫폼 구축",
+        "git":      "none",
+        "dist":     "none",
+        "img":      "/image/goe.png",
+        "imgType":  "horizontal",
+        "period":   "2026.10 ~ 2026.10",
+        "comment":  "공통 컴포넌트 제작, 라이브러리 커스텀, 디자인 변경, 웹 접근성",
+        "skill":    "React(Next.js), HTML5, SCSS, Javascript, Tailwind, 웹 접근성"
+      }
+    ]
+  },
+  {
     "client": "경기신용보증재단",
     "className": "gcgf",
     "project": [

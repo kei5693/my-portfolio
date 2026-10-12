@@ -17,7 +17,7 @@ function App() {
         </ul>
 
         <dl>
-          <dt>안녕하세요? 프론트엔드 개발자 오경훈입니다.</dt>
+          <dt>안녕하세요? 웹 퍼블리셔 오경훈입니다.</dt>
           <dd>
             <ul className='bullList'>
               <li>새로운 기술, 공부는 직접 테스트를 통해 체득하고 그 기록을 남기고 있습니다.</li>
@@ -28,7 +28,7 @@ function App() {
           <dt>[Skill &amp; Tool]</dt>
           <dd>
             <ul>
-              <li>Javascript, Vue.js, Jquery, React</li>
+              <li>Javascript, React, Vue.js, Jquery </li>
               <li>HTML5, CSS3, SCSS, Tailwind</li>
               <li>Webpack</li>
               <li>Figma, PhotoShop, Xd</li>

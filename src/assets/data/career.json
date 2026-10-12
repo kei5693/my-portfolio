@@ -165,7 +165,17 @@
     "department": "웹 퍼블리셔",
     "position":   "프리랜서",
     "period":     "2026.07 ~ 2026.09",
-    "work":       "공통 컴포넌트 제작, 라이브러리 커스텀, 디자인 변경, 웹 접근성",
+    "work":       "React 기반 Next.js 환경에서 퍼블리싱 및 공통 컴포넌트 제작, 라이브러리 커스텀, 웹 접근성",
+    "client":     "",
+    "skill":      "React(Next.js), HTML5, SCSS, Javascript, Tailwind, 웹 접근성"
+  },
+  {
+    "id":         "18",
+    "name":       "경기도교육청",
+    "department": "웹 퍼블리셔",
+    "position":   "프리랜서",
+    "period":     "2026.10 ~ 2026.10",
+    "work":       "React 기반 Next.js 환경에서 퍼블리싱 및 공통 컴포넌트 제작, 라이브러리 커스텀, 웹 접근성",
     "client":     "",
     "skill":      "React(Next.js), HTML5, SCSS, Javascript, Tailwind, 웹 접근성"
   }
